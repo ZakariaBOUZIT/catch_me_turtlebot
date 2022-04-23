@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="turtlesim" name="turtlesim_node" type="turtlesim_node"/>
+	<node pkg="catch_me" name="pose_listener" type="pose_listener.cpp"/>
+</launch>
+
