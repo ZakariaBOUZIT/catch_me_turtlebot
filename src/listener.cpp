@@ -3,6 +3,7 @@
 
 turtlesim::Pose turtle_pose;
 
+
 void pose_callback(const turtlesim::Pose::ConstPtr pose_msg){
     ROS_INFO("listening to turtle pose :");
     turtle_pose = *pose_msg; 
