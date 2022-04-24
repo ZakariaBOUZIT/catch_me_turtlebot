@@ -27,3 +27,8 @@ add_executable(talker src/talker.cpp)
  target_link_libraries(talker
    ${catkin_LIBRARIES}
  )
+ 
+ add_executable(main src/main.cpp)
+ target_link_libraries(main
+   ${catkin_LIBRARIES}
+ )
