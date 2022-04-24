@@ -18,7 +18,7 @@ include_directories(
 )
 
 
-add_executable(pose_listener src/pose_listener.cpp)
- target_link_libraries(pose_listener
+add_executable(listener src/listener.cpp)
+ target_link_libraries(listener
    ${catkin_LIBRARIES}
  )
