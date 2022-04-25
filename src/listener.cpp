@@ -9,6 +9,7 @@ void pose_callback(const turtlesim::Pose::ConstPtr pose_msg){
     ROS_INFO_STREAM("x : " <<turtle_pose.x << "\ty : " <<turtle_pose.y << "\ttheta : " <<turtle_pose.theta);
 }
 
+
 int main(int argc, char **argv){
     ros::init(argc, argv, "pose_listener");
     ros::NodeHandle n;

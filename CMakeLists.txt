@@ -32,3 +32,8 @@ add_executable(talker src/talker.cpp)
  target_link_libraries(main
    ${catkin_LIBRARIES}
  )
+ 
+  add_executable(pose_srv src/pose_srv.cpp)
+ target_link_libraries(pose_srv
+   ${catkin_LIBRARIES}
+ )
