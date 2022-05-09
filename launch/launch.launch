@@ -1,8 +1,0 @@
-<launch>
-	<node pkg="turtlesim" name="turtlesim_node" type="turtlesim_node"/>
-	<!-- <node pkg="catch_me" name="pose_listener" type="listener" output="screen"/> -->
-	<!-- <node pkg="catch_me" name="pose_talker" type="talker" output="screen"/> -->
-	<node pkg="catch_me" name="main" type="main" output="screen"/>
-	<node pkg="catch_me" name="pose_srv" type="pose_srv" output="screen"/>
-</launch>
-

@@ -37,3 +37,13 @@ add_executable(talker src/talker.cpp)
  target_link_libraries(pose_srv
    ${catkin_LIBRARIES}
  )
+ 
+  add_executable(turtlebot_move src/turtlebot_move.cpp)
+ target_link_libraries(turtlebot_move
+   ${catkin_LIBRARIES}
+ )
+ 
+   add_executable(scan_move src/scan_move.cpp)
+ target_link_libraries(scan_move
+   ${catkin_LIBRARIES}
+ )
